@@ -1,0 +1,74 @@
+body {
+  font-family: "Space Mono";
+  background-color: 9EDDFF;
+  color: #2E4374;
+  text-align: center;
+  padding: 25px;
+}
+
+#button {
+  font-size: 2cqmax;
+  color: white;
+  background-color: #112bd3;
+  padding: 5px;
+  width: 40px;
+  margin: 25px auto;
+  border-radius: 5px;
+  border: 1px solid #2E4374;
+  box-shadow: 16px 16px 16px rgba(0, 0, 0, 0.1);
+}
+
+#wagon-img {
+  height: 20px;
+}
+
+h1, h2, h3 {
+  font-family: "Space Grotesk";
+  color: #2E4374;
+}
+
+li {
+  display: inline;
+  margin: 0 40px;
+}
+
+ul {
+  padding: 0px;
+}
+
+.card {
+  background-color: #EEEEEE;
+  padding: 50px;
+  width: 500px;
+  margin: 25px auto;
+  border-radius: 5px;
+  border: 1px solid #2E4374;
+  box-shadow: 36px 16px 16px rgba(0,0,0,0.1);
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card {
+    width: 300px;
+  }
+}
+
+#profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
